@@ -1,0 +1,18 @@
+{
+  "name": "cusscheck",
+  "version": "0.3.1",
+  "private": true,
+  "description": "Profanity word filter API (detect + censor, English) and free paste-text tool on Cloudflare Workers",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": {
+    "obscenity": "0.4.6"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}
